@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "description": "Detects file types by bytes signatures.",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src/**/*.js",
+    "src/**/*.d.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +23,7 @@
   "author": "Laurence Louis Trippen",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^25.5.2",
     "eslint": "^10.2.0"
   }
 }
