@@ -1,0 +1,21 @@
+{
+  "name": "whatfile",
+  "version": "0.1.0",
+  "description": "Detects file types by bytes signatures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file",
+    "signature",
+    "bytes",
+    "fseek",
+    "mime-type"
+  ],
+  "author": "Laurence Louis Trippen",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^10.2.0"
+  }
+}
