@@ -14,6 +14,8 @@ claims to be.
 npm install whatfile
 ```
 
+[npm link](https://www.npmjs.com/package/@laurence-trippen/whatfile)
+
 Requires Node.js 22 (see `.nvmrc`).
 
 ## Usage

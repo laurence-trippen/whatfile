@@ -1,5 +1,5 @@
 {
-  "name": "whatfile",
+  "name": "@laurence-trippen/whatfile",
   "version": "0.1.0",
   "description": "Detects file types by bytes signatures.",
   "main": "index.js",
