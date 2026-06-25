@@ -22,6 +22,17 @@
   ],
   "author": "Laurence Louis Trippen",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurence-trippen/whatfile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laurence-trippen/whatfile/issues"
+  },
+  "homepage": "https://github.com/laurence-trippen/whatfile#readme",
+  "engines": {
+    "node": ">=22"
+  },
   "devDependencies": {
     "@types/node": "^25.5.2",
     "eslint": "^10.2.0"
