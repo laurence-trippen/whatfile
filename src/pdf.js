@@ -18,7 +18,7 @@ async function isPdf(path) {
     await fileHandle.read(header, OFFSET, PDF_HEADER_SIZE, POSITION)
 
     // Check header
-    const isPDF = header.equals(PDF_STANDARD_HEADER)
+    const isPDF = header.equals(Buffer.from(PDF_STANDARD_HEADER))
     return isPDF
   } catch (e) {
     return false
